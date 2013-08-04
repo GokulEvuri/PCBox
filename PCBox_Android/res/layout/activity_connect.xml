@@ -10,8 +10,8 @@
 
     <ListView
         android:id="@+id/device_list"
-        android:layout_width="100dp"
-        android:layout_height="100dp" >
+        android:layout_width="200dp"
+        android:layout_height="200dp" >
 </ListView>
     
     <Button
@@ -21,6 +21,6 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="70dp"
-        android:text="Button" />
+        android:text="Refresh" />
 
 </RelativeLayout>
