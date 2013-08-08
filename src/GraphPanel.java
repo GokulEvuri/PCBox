@@ -1,3 +1,8 @@
+/*
+ * Author Gokul S Evuri (gokul@evuri.com)
+ * 
+ * */
+
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Point;
@@ -17,6 +22,7 @@ public class GraphPanel extends JPanel{
 			
 			public void paint(Graphics g) {
 			
+				
 				Point gPoint = 	PCBox.p;
 				g.setColor(Color.white);
 		        g.fillRect(0, 0, 800, 400);
