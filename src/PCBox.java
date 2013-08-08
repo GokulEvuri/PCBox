@@ -23,6 +23,7 @@ public class PCBox {
 	
 
 	public void render_loop(){
+	
 		Scanner in = new Scanner(System.in);
 		
 		if (bool!= false){
@@ -39,6 +40,8 @@ public class PCBox {
 				p.y = Integer.parseInt(str);
 			}
 		}
+		// Resource clean up
+		in.close();
 	}
 	
 	
